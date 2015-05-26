@@ -1,0 +1,13 @@
+<div class="main">
+  <div class="container">
+    <div class="row">
+      <div class="item col-md-4 col-sm-6 col-xs-6 col-lg-2" ng-repeat="photo in photos">
+        <a href="#/photos/{{$index}}">
+          <img class="img-responsive" ng-src="{{ photo.url_m }}">
+          <!-- <p class="author">by {{ photo.ownername }}</p> -->
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
